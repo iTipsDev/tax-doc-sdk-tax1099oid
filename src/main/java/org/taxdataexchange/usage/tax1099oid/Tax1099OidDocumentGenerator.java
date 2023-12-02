@@ -56,7 +56,7 @@ public class Tax1099OidDocumentGenerator {
         Tax1099OidPdfBuilder pdfBuilder = new Tax1099OidPdfBuilder( );
         byte[] bytes = pdfBuilder.buildQr( taxDataList );
 
-        String filePath = "samples/Tax1099Oid.sample.png";
+        String filePath = "samples/Tax1099Oid.qr.png";
         FileUtils.bytesToFile( bytes, filePath );
         System.out.println( filePath );
 
@@ -84,6 +84,12 @@ public class Tax1099OidDocumentGenerator {
         String filePath = "samples/Tax1099Oid.sample.pdf";
         FileUtils.bytesToFile( pdfBytes, filePath );
         System.out.println( filePath );
+
+        String filePathPng = "samples/Tax1099Oid.sample.png";
+        byte[] pngBytes = Pdf2PngConverter.convertBytes( pdfBytes );
+        FileUtils.bytesToFile( pngBytes, filePathPng );
+        System.out.println( filePathPng );
+
 
     }
 
