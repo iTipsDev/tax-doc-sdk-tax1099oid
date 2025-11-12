@@ -1,0 +1,71 @@
+{
+  "taxYear" : 2025,
+  "accountId" : "63-269-6943",
+  "taxFormId" : "2207364",
+  "taxFormDate" : "2025-12-31",
+  "issuer" : {
+    "tin" : "00-0042412",
+    "partyType" : "BUSINESS",
+    "businessName" : {
+      "name1" : "Schneider-Carter"
+    },
+    "address" : {
+      "line1" : "86896 Jammie Glens",
+      "city" : "Reynoldsshire",
+      "region" : "IA",
+      "postalCode" : "75015"
+    },
+    "phone" : {
+      "number" : "555-867-5309"
+    },
+    "email" : "classie.okon@hotmail.com"
+  },
+  "recipient" : {
+    "tin" : "000-52-0328",
+    "partyType" : "INDIVIDUAL",
+    "individualName" : {
+      "first" : "Althea",
+      "last" : "Flatley"
+    },
+    "address" : {
+      "line1" : "397 Lan Ramp",
+      "city" : "Pollichchester",
+      "region" : "AK",
+      "postalCode" : "20479"
+    },
+    "email" : "sparkle.marvin@gmail.com"
+  },
+  "attributes" : [ ],
+  "links" : [ ],
+  "foreignAccountTaxCompliance" : true,
+  "accountNumber" : "122-45116-5",
+  "originalIssueDiscount" : 200,
+  "otherPeriodicInterest" : 300,
+  "earlyWithdrawalPenalty" : 400,
+  "federalTaxWithheld" : 500,
+  "marketDiscount" : 600,
+  "acquisitionPremium" : 700,
+  "oidDescription" : "oidDescription",
+  "discountOnTreasuryObligations" : 800,
+  "investmentExpenses" : 900,
+  "bondPremium" : 1000,
+  "taxExemptOid" : 1100,
+  "stateAndLocal" : [ {
+    "stateCode" : "AA",
+    "state" : {
+      "taxWithheld" : 1200,
+      "taxId" : "66-935389",
+      "income" : 1300
+    },
+    "local" : {
+      "taxWithheld" : 1400,
+      "localityName" : "Maxmouth",
+      "income" : 1500
+    }
+  } ],
+  "stateExemptOid" : [ {
+    "description" : "Description",
+    "amount" : 1600
+  } ],
+  "secondTinNotice" : true
+}
