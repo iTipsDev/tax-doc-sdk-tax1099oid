@@ -1,0 +1,79 @@
+{
+  "taxYear" : 2026,
+  "accountId" : "99-582-7099",
+  "taxFormId" : "1425719",
+  "taxFormDate" : "2026-12-31",
+  "issuer" : {
+    "tin" : "00-0069548",
+    "partyType" : "BUSINESS",
+    "businessName" : {
+      "name1" : "Barton LLC"
+    },
+    "address" : {
+      "line1" : "3318 Annetta Squares",
+      "city" : "Swaniawskimouth",
+      "region" : "CT",
+      "postalCode" : "07355",
+      "unitType" : "Apt",
+      "unitNumber" : "829"
+    },
+    "phone" : {
+      "number" : "555-867-5309"
+    },
+    "email" : "nga.parisian@yahoo.com"
+  },
+  "recipient" : {
+    "tin" : "000-89-4653",
+    "partyType" : "INDIVIDUAL",
+    "individualName" : {
+      "first" : "Marlo",
+      "middle" : "Beau",
+      "last" : "Brown"
+    },
+    "businessName" : {
+      "name1" : "Quitzon Inc"
+    },
+    "address" : {
+      "line1" : "308 Oswaldo Camp",
+      "city" : "Tasiaton",
+      "region" : "WA",
+      "postalCode" : "84998",
+      "unitType" : "Apt",
+      "unitNumber" : "126"
+    },
+    "email" : "porter.murazik@gmail.com"
+  },
+  "attributes" : [ ],
+  "links" : [ ],
+  "foreignAccountTaxCompliance" : true,
+  "accountNumber" : "752-68935-6",
+  "originalIssueDiscount" : 200,
+  "otherPeriodicInterest" : 300,
+  "earlyWithdrawalPenalty" : 400,
+  "federalTaxWithheld" : 500,
+  "marketDiscount" : 600,
+  "acquisitionPremium" : 700,
+  "oidDescription" : "Zero-coupon bond",
+  "discountOnTreasuryObligations" : 800,
+  "investmentExpenses" : 900,
+  "bondPremium" : 1000,
+  "taxExemptOid" : 1100,
+  "stateAndLocal" : [ {
+    "stateCode" : "AA",
+    "state" : {
+      "taxWithheld" : 1200,
+      "taxId" : "47-328434",
+      "income" : 1300
+    },
+    "local" : {
+      "taxWithheld" : 1400,
+      "localityName" : "Sipesberg",
+      "income" : 1500
+    }
+  } ],
+  "stateExemptOid" : [ {
+    "description" : "CA SDI",
+    "amount" : 1600
+  } ],
+  "secondTinNotice" : true
+}

@@ -1,0 +1,79 @@
+{
+  "taxYear" : 2026,
+  "accountId" : "04-193-3628",
+  "taxFormId" : "0783639",
+  "taxFormDate" : "2026-12-31",
+  "issuer" : {
+    "tin" : "00-0069548",
+    "partyType" : "BUSINESS",
+    "businessName" : {
+      "name1" : "Barton LLC"
+    },
+    "address" : {
+      "line1" : "3318 Annetta Squares",
+      "city" : "Swaniawskimouth",
+      "region" : "CT",
+      "postalCode" : "07355",
+      "unitType" : "Apt",
+      "unitNumber" : "829"
+    },
+    "phone" : {
+      "number" : "555-867-5309"
+    },
+    "email" : "nga.parisian@yahoo.com"
+  },
+  "recipient" : {
+    "tin" : "000-34-0178",
+    "partyType" : "INDIVIDUAL",
+    "individualName" : {
+      "first" : "Chang",
+      "middle" : "Randal",
+      "last" : "Brakus"
+    },
+    "businessName" : {
+      "name1" : "Weissnat-Gottlieb"
+    },
+    "address" : {
+      "line1" : "46654 Jones Point",
+      "city" : "East Karynberg",
+      "region" : "LA",
+      "postalCode" : "60899",
+      "unitType" : "Apt",
+      "unitNumber" : "308"
+    },
+    "email" : "bruce.bechtelar@hotmail.com"
+  },
+  "attributes" : [ ],
+  "links" : [ ],
+  "foreignAccountTaxCompliance" : true,
+  "accountNumber" : "994-63630-6",
+  "originalIssueDiscount" : 200,
+  "otherPeriodicInterest" : 300,
+  "earlyWithdrawalPenalty" : 400,
+  "federalTaxWithheld" : 500,
+  "marketDiscount" : 600,
+  "acquisitionPremium" : 700,
+  "oidDescription" : "Zero-coupon bond",
+  "discountOnTreasuryObligations" : 800,
+  "investmentExpenses" : 900,
+  "bondPremium" : 1000,
+  "taxExemptOid" : 1100,
+  "stateAndLocal" : [ {
+    "stateCode" : "AA",
+    "state" : {
+      "taxWithheld" : 1200,
+      "taxId" : "27-683942",
+      "income" : 1300
+    },
+    "local" : {
+      "taxWithheld" : 1400,
+      "localityName" : "Port Cristiborough",
+      "income" : 1500
+    }
+  } ],
+  "stateExemptOid" : [ {
+    "description" : "CA SDI",
+    "amount" : 1600
+  } ],
+  "secondTinNotice" : true
+}
